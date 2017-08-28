@@ -212,7 +212,7 @@ plot(net_got,
 ```
 
 但是由于 nodes 数量过多，在R中画图，始终避免不了 overlapping 的情况。看一下成品图</p>
-![igraph](https://github.com/calvinlovescode/GameofThrone-SNA/blob/master/igraph.pdf)
+![igraph](https://github.com/calvinlovescode/GameofThrone-SNA/blob/master/igraph.png)
 
 为了解决这个问题，可以把数据导入 Gephi 中进行分析，美化我们的社交网络关系图。</p>
 
