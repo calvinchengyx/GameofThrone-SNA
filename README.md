@@ -211,7 +211,10 @@ plot(net_got,
      )  
 ```
 
-但是由于 nodes 数量过多，在R中画图，始终避免不了 overlapping 的情况。为了解决这个问题，可以把数据导入 Gephi 中进行分析，美化我们的社交网络关系图。</p>
+但是由于 nodes 数量过多，在R中画图，始终避免不了 overlapping 的情况。看一下成品图</p>
+![igraph](https://github.com/calvinlovescode/GameofThrone-SNA/blob/master/igraph.pdf)
+
+为了解决这个问题，可以把数据导入 Gephi 中进行分析，美化我们的社交网络关系图。</p>
 
 把数据导出gephi的格式。
 
@@ -220,6 +223,8 @@ plot(net_got,
 ## Gephi
 
 这一步我就不多介绍了，大家可以自行下载[gephi](https://gephi.org/)软件玩一下，这是一个非常容易上手的图形界面分析软件，人人都可以用。
+来看一下成品图
+![gephi](https://github.com/calvinlovescode/GameofThrone-SNA/blob/master/P1.png)
 
 ## Appendix
 
