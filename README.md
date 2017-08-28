@@ -22,7 +22,7 @@ __[社交网络分析（Social Network Analysis）](https://en.wikipedia.org/wik
 
 然后你得到一个 _GOT_txt_ 的文本文件，里面包含了全部已出版五本书的内容。默认这个txt文件中五本书是按顺序排列的。</p> 
 
-然后手动删去：__序言、前言、附录__。得到_GoTpure.txt_</p>
+然后手动删去：__序言、前言、附录__。得到 _GoTpure.txt_ </p>
 
 开始我们的表演。
 
@@ -117,7 +117,7 @@ for i in role.find():
 ```
 然后我们合并结果，就得到了一个有65024条人物关系表，是我们的 edge list，存储为 got_edges.csv。
 
-**got_nodes.csv**和**got_edges.csv**两个文件，是我们接下来进行SNA分析的关键核心。
+**[got_nodes.csv](https://github.com/calvinlovescode/GameofThrone-SNA/blob/master/got_nodes_raw.csv)**和**[got_edges.csv](https://github.com/calvinlovescode/GameofThrone-SNA/blob/master/got_edges_raw.csv)**两个文件，是我们接下来进行SNA分析的关键核心。
 
 ### Step 4 社交网络分析
 主要使用是R中的`igaph` Package.
